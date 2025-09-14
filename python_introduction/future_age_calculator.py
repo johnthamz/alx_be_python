@@ -1,6 +1,6 @@
 # Python script that asks the user for their current age and then calculates how old they will be in a specific future year.
 #Prompt the user to input their current age with the question:
-current_age = int(input("How old are you"))
+current_age = int(input("How old are you?"))
 
 #Calculate years until 2050 (2050 - 2023 = 27)
 years_until_2050 = 2050 - 2023
