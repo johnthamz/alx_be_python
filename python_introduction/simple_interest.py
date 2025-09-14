@@ -9,7 +9,7 @@
        # ( T ) is the time the money is invested for in years
 
 principle = 1000   #represnting $1000
-rate = 0.05        #representing 5% annual interest rate
+rate = 5/100        #representing 5% annual interest rate
 time = 3           #representing 3 years
 
 interest = principle * rate * time
