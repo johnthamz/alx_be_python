@@ -8,11 +8,11 @@
        # ( R ) is the annual interest rate,
        # ( T ) is the time the money is invested for in years
 
-principle = 1000   #represnting $1000
-rate = 5/100        #representing 5% annual interest rate
-time = 3           #representing 3 years
+principal = 1000           #represnting $1000
+interest_rate = 0.05       #representing 5% annual interest rate
+time = 3                   #representing 3 years
 
-interest = principle * rate * time
+interest = principal * interest_rate * time
 
 print(f"The simple interest is {interest}")
 
