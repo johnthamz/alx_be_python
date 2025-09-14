@@ -12,7 +12,7 @@ principal = 1000           #represnting $1000
 interest_rate = 0.05       #representing 5% annual interest rate
 time = 3                   #representing 3 years
 
-interest = principal * interest_rate * time
+simple_interest = principal * interest_rate * time
 
-print(f"The simple interest is {interest}")
+print(f"The simple interest is {simple_interest}")
 
