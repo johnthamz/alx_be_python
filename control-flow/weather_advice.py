@@ -5,11 +5,11 @@
 weather = input("What's the weather like today? (sunny/rainy/cold):")
 
 # Use conditional statements to give clothing advice
-if weather.lower() == "sunny":
-    print("Wear a t-shirt and sunglassses")
-elif weather.lower() == "rainy":
-    print("Don't forget your umbrella and raincoat")
-elif weather.lower() == "cold":
-    print("Make sure to wear a warm coat and a scarf")
+if weather == "sunny":
+    print("Wear a t-shirt and sunglassses.")
+elif weather == "rainy":
+    print("Don't forget your umbrella and raincoat.")
+elif weather == "cold":
+    print("Make sure to wear a warm coat and a scarf.")
 else:
-    print("Sorry,I don't have recommondations for this weather")
+    print("Sorry, I don't have recommondations for this weather.")
