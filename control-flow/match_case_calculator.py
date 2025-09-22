@@ -1,5 +1,5 @@
 #Python script named match_case_calculator.py. This calculator will prompt the user to enter two numbers and select an operation.
-num1 = float(input("Enter thr first number: "))
+num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operation = input("Choose the operation (+, -, *, /: ")
 
